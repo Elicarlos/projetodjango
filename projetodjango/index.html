@@ -60,12 +60,13 @@
 <!-- Section Intro Slider
 ================================================== -->
 <div id="carousel-example-generic" class="carousel intro slide">
-	<!-- Indicators -->
+	<!-- Indicators 
 	<ol class="carousel-indicators">
 		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 	</ol>
+	-->
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<!-- First slide -->
@@ -75,11 +76,11 @@
 				A maior campanha de varejo de Teresina </h2>
 				<h1 data-animation="animated bounceInUp">
 				Liquida Teresina 2018 </h1>
-				<a href="#" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Cadastre-se aqui</a>
+				<a href="#contact" class="btn btn-primary btn-lg page-scroll" data-animation="animated fadeInRight">Cadastre-se aqui</a>
 			</div>
 		</div>
 		<!-- /.item -->
-		<!-- Second slide -->
+		<!-- Second slide 
 		<div class="item" style="background-image:url(https://s3-eu-west-1.amazonaws.com/layanademo/s2-min.jpg)">
 			<div class="carousel-caption">
 				<h2 data-animation="animated zoomInLeft">
@@ -90,7 +91,7 @@
 			</div>
 		</div>
 		<!-- /.item -->
-		<!-- Third slide -->
+		<!-- Third slide 
 		<div class="item" style="background-image:url(https://s3-eu-west-1.amazonaws.com/layanademo/s3-min.jpg)">
 			<div class="carousel-caption">
 				<h2 data-animation="animated bounceInLeft">
@@ -103,7 +104,7 @@
 		<!-- /.item -->
 	</div>
 	<!-- /.carousel-inner -->
-	<!-- Controls (currently displayed none from style.css)-->
+	<!-- Controls (currently displayed none from style.css)
 	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 	<span class="sr-only">Previous</span>
@@ -112,6 +113,7 @@
 	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 	<span class="sr-only">Next</span>
 	</a>
+	-->
 </div>
 <!-- /.carousel -->
 
@@ -146,21 +148,43 @@
 					<p>
 						 A cada R$40,00 reais em compras nas lojas parceiras, você ganha um cupom para concorrer a varios prêmios especiais! 
 					</p>
-					<a href="#">Lojas Parceiras</a>
+					<a data-toggle="modal" href="#exampleModalLong">
+  Lojas Parceiras
+</a>
 				</div>
 			</div>
 			</li>
 			<!-- /tline-->
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        ...
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary">Save changes</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
 			<!-- tline-->
 			<li class="tline-item-right wow fadeInRight">
 			<div class="tline-item-content">
-				<div class="date-icon fa fa-camera">
+				<div class="date-icon fa fa-user">
 				</div>
 				<div class="tline-item-txt text-left">
 					<div class="meta">
-						 December 2016
+						 Passo 2
 					</div>
-					<h3>Green is Health</h3>
+					<h3>Cadastre-se</h3>
 					<p>
 						 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
 					</p>
@@ -171,13 +195,13 @@
 			<!-- tline-->
 			<li class="tline-item-left wow fadeInLeft">
 			<div class="tline-item-content">
-				<div class="date-icon fa fa-user">
+				<div class="date-icon fa fa-car">
 				</div>
 				<div class="tline-item-txt text-right">
 					<div class="meta">
-						 November 2016
+						 Passo 3
 					</div>
-					<h3>Why you love us</h3>
+					<h3>Se dirija ao ponto de troca mais proximo</h3>
 					<p>
 						 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
 					</p>
@@ -192,9 +216,9 @@
 				</div>
 				<div class="tline-item-txt text-left">
 					<div class="meta">
-						 September 2016
+						 Passo 4
 					</div>
-					<h3>Save our Planet</h3>
+					<h3>Agora é só esperar ser sorteado!</h3>
 					<p>
 						 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
 					</p>
@@ -206,7 +230,7 @@
 			<div class="tline-start-content">
 				<div class="tline-start-icon">
 				</div>
-				<a href="#" class="btn btn-primary bgn-xl wow zoomIn">CADASTRE-SE</a>
+				<a href="#contact" class="btn btn-primary bgn-xl wow zoomIn page-scroll">CADASTRE-SE</a>
 			</div>
 			</li>
 		</ul>
